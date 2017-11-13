@@ -1,0 +1,130 @@
+/* To change this license header,
+choose License Headers in Project Properties.
+To change this template file,
+choose Tools | Templates
+and open the template in the editor. */
+/* Created on:Feb 15,
+2014,
+5:36:56 PM
+Author:Ingvar */
+
+#contentForm {
+  display: block;
+  margin: 20px auto;
+  padding: 5px;
+  border: none;
+  background-color: #F5F5F5;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+/* formatiranje forme */
+label {
+  display: block;
+  //float: top;
+  clear: left;
+  width: auto;
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin: 5px 0;
+}
+select {
+  margin: 0;
+  border-color: black;
+  padding: 2px;
+  font-size: 1em;
+  color: black;
+  background: black;
+  border: 1px solid #ccc;
+  border: none;
+  margin: 5px 0;
+  height: 30px;
+}
+.box {
+  margin: 0;
+  padding: 2px;
+  font-size: 1em;
+  color: #666666;
+  background: #e6e7e8;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  height: 20px;
+  width: 335px;
+  float: left;
+  /* border: inset 1px #F5F5F5;
+  */
+}
+.textbox {
+  margin: 0;
+  padding: 2px;
+  font-size: 1em;
+  color: #666666;
+  background: #e6e7e8;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  height: 140px;
+  width: 335px;
+  /* border: inset 1px #F5F5F5;
+  */
+}
+.boxarea {
+  margin: 0;
+  padding: 2px;
+  font-size: 1em;
+  color: #666666;
+  background: #e6e7e8;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  height: 140px;
+  width: 335px;
+  /* border: inset 1px #F5F5F5;
+  */
+}
+.button {
+  cursor: pointer;
+  /* box-shadow: 1px 1px;
+  */
+  width: 65px;
+  height: 30px;
+  font-size: 1em;
+  color: #F05523;
+  text-shadow: 1px  1px #F5F5F5;
+  background: #e6e7e8;
+  border: none;
+  hover: #F05523;
+}
+span.required {
+  /* font-size: 13px !important;
+  color: red !important;
+  */
+  display: none;
+}
+input:focus {
+  border-color: #F5F5F5 !important;
+}
+.errormsg {
+  display: block;
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-weight: bold;
+  background: #F05523 url(images/stop.gif) no-repeat 10px center;
+  padding: 3px 10px 3px 40px;
+  margin: 10px 0;
+  border-top: 2px solid #FF0000;
+  border-bottom: 2px solid #FF0000;
+}
+.msgSent {
+  font-size: 20px;
+  text-align: center;
+}
+#spamcheck {
+  width: 60px;
+  margin-left: 5px;
+}
+
+.spamchk div{
+float: left;
+margin:5px 0;
+}
